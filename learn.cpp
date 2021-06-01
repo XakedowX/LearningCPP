@@ -8,7 +8,7 @@ int main()
     newBattery = 66;
     newBattery = newBattery - 1;
 
-    std::cout << "Battery: " << newBattery << "\n";
+    std::cout << "Battery: " << newBattery << std::endl;
 
     return 0;
 }
