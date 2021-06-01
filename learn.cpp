@@ -10,5 +10,11 @@ int main()
 
     std::cout << "Battery: " << newBattery << std::endl;
 
+    int age;
+    std::cout << "\nWhat is your age?: ";
+    std::cin >> age;
+
+    std::cout << "Your age is: " << age << std::endl;
+
     return 0;
 }
